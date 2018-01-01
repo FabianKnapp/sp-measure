@@ -9,4 +9,3 @@ distclean-local:
 	
 install-data-local:
 	install -d $(DESTDIR)/$(docdir)/libsp-measure-dev/
-	install -m 644 examples/res-monitor.c $(DESTDIR)/$(docdir)/libsp-measure-dev/
